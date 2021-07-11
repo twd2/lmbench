@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo riscv64-linux-gnu
+exit 0
+
 if [ "X$OS" != "X" ] && echo "$OS" | grep '`' > /dev/null
 then
     OS=

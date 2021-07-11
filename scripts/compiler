@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo riscv64-unknown-linux-gnu-gcc
+exit 0
+
 if [ "X$CC" != "X" ] && echo "$CC" | grep '`' > /dev/null
 then
     CC=
